@@ -18,6 +18,8 @@ This repository contains the EFI folder and configuration files needed to set up
 1. **What works?**
    - Bluetooth
    - Sleep
+   - Audio
+   - iServices (refer https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-imessage-and-other-services-with-opencore)
    - iGPU Acceleration (thanks to NootedRed)
    
 2. **What doesn't work?**
