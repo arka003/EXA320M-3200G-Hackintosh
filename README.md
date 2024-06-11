@@ -1,4 +1,4 @@
-# EXA320M-3200G Hackintosh
+# EXA320M-3200G Hackintosh (OC v1.0.0)
 
 This repository contains the EFI folder and configuration files needed to set up a Hackintosh on a system with an ASUS EX-A320M GAMING motherboard and a Ryzen 3 3200G APU.
 
@@ -25,6 +25,6 @@ This repository contains the EFI folder and configuration files needed to set up
    - Advanced OpenGL apps may cause graphical glitches and/or GPU hangs
    - One USB3.2 port at the back of the motherboard (I've disabled it due to macOS's 15 port USB limit)
 
-
+**NOTE:** Remove NootedRed from Kexts and update `config.plist` for the first boot until completely installed, add it after successful installation for GPU acceleration.
 
 **It is recommended to map USB ports again using USBMap from corpnewt even if you're using a slightly different build**
